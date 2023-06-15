@@ -1,0 +1,99 @@
+body{
+
+}
+
+h1, h2, h3, h4, h5, h6{
+
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+#homeTitle, #projectsTitle, #aboutTitle, #contactTitle{
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+#topSlide{
+    background-image: url("img/home-slide-bkg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#aboutSlide{
+    background-image:
+            linear-gradient(45deg,
+              rgba(253, 46, 42, 0.75),
+              rgba(0, 83, 167, 0.75)), url(
+'img/about-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#projectsSlide{
+    background-image:
+            linear-gradient(45deg,
+              rgba(0, 83, 167, 0.75),
+              rgba(253, 46, 42, 0.75)), url(
+'img/projects.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#projectsSlide a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+#projectsSlide a:hover{
+    text-decoration: underline;
+    color: #1c1c1c;
+}
+
+#contactSlide{
+    background-image:
+            linear-gradient(45deg,
+              rgba(253, 46, 42, 0.75),
+              rgba(0, 83, 167, 0.75)), url(
+'img/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fa-brands{
+    color: #fff;
+}
